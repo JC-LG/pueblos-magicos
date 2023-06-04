@@ -1,0 +1,22 @@
+/*
+  Estilos Globales:
+  Que aplican a todas las demas paginas.
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #F6F6F6;
+}
+
+
+/* Estilos Individuales */
+
+/*
+  Index.css
+ */
+picture.logo img {
+    border-radius: 20px;
+}
