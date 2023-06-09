@@ -3,12 +3,79 @@
   Que aplican a todas las demas paginas.
  */
 
+@font-face {
+    font-family: "PT Sans PM";
+    src: url("../recursos/PTSans-Regular.ttf");
+}
+
+.typografia {
+    font-family: "PT Sans PM", "PT Sans", serif;
+}
+
 * {
     box-sizing: border-box;
 }
 
 html, body {
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 75px 0 0 0;
+}
+
+.header-menu-contenedor {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    margin: 0;
+    z-index: 9999;
+}
+
+.menu-lista {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-content: center;
+}
+
+.menu-opcion {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-opcion a {
+    /*all: unset;*/
+    text-decoration: none;
+}
+
+.logo {
+    height: 75px;
+    display: flex;
+}
+
+.logo img {
+    align-self: center;
+}
+
+.lado-derecho {
+    justify-content: flex-end;
+}
+
+.lado-izquierdo {
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px)  {
+    .menu-links-navegacion .menu-lista {
+        display: block;
+    }
 }
 
 
@@ -17,6 +84,36 @@ html, body {
 /*
   Index.css
  */
-picture.logo img {
-    border-radius: 20px;
+
+.pueblo-magico-imagen {
+    background-image: url("../recursos/imagen-fondo.webp");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.pueblo-magico-texto {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: white;
+    text-shadow: 7px 8px 6px rgba(17, 0, 0, 1);
+}
+
+@media only screen and (max-width: 600px)  {
+    .pueblo-magico-texto {
+        left: 40%;
+    }
+}
+
+.contentido {
+    text-align: center;
+}
+.columnas * {
+    display: inline-flex;
+    width: 40%;
+    align-content: center;
 }
