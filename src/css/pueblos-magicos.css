@@ -31,6 +31,7 @@
 
     --fuente-color: #212121;
     --fuente-color2: #444444;
+    --fuente-color3: #ECECEC;
 
     --background-description:#ECECEC;
     --montserrat: 'Montserrat', sans-serif;
@@ -38,7 +39,6 @@
 }
 
 html, body {
-    background-color: var(--background-body);
     font-family: var(--open-sans);
     margin: 0;
 	padding: 0;
@@ -81,12 +81,17 @@ p{
     font-size: 18px; 
     color: var(--fuente-color2);
 }
+label{
+    font-weight: 500;   
+    font-size: 20px; 
+    color: var(--fuente-color2);
+}
 
 /* Estilos Individuales */
 
-/*
-  Index.css
- */
+
 picture.logo img {
     border-radius: 20px;
 }
+
+

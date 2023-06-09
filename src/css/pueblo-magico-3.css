@@ -1,0 +1,104 @@
+	
+	.html_Pricipal {
+		background-image: url("../recursos/imagenes/fondo_contacto.jpg");
+		background-size: cover;
+	 
+	}	
+	
+	.html_Pricipal_atlixco {
+		background-image: url("../recursos/imagenes/fondo_atlixco.jpg");
+		background-size: cover;
+	 
+	}	
+	
+	h1,	h2,	h3,	p { 
+		color: var(--fuente-color3);
+		text-align: center;
+	}	
+	
+	.formulario {
+	  margin-top: 0em;
+	  border-radius: 10px;
+	  display: inline;
+	  width: 100%;
+	}
+	.inputForm{
+		border-radius: 5px; 
+		width: 200px; 
+		height: 35px;
+		background-color: var(--background-description);;
+	}
+	/* -------------------------- */
+	/* -- INI Tablas ------------ */
+
+	
+	th, td{
+		border:2px solid black;
+		font-weight: 400;   font-size: 18px; color: #212121;
+	}
+	
+	.tabla_1 {
+		table-layout: fixed;
+		width: 40%;
+		border-collapse: collapse;
+		border: 6px solid var(--color-morado1);
+		background: var(--color-morado3);;
+		text-align: center;
+		font-size: 95%;
+		margin-left: auto;
+		margin-right: auto;		
+	}		
+	hr{
+		border: 1px solid var(--color-morado1);
+	}
+	/* .tabla_2 {
+		table-layout: fixed;
+		width: 60%;
+		border-collapse: collapse;
+		border: 3px solid var(--color-morado1);
+		background: var(--background-description);
+		text-align: center;
+		font-size: 95%;
+		margin-left: auto;
+		margin-right: auto;	
+	}	 */
+
+	
+	.tabla_3 {
+		table-layout: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		width: 87%;
+		border-collapse: collapse;
+		border: 6px solid var(--background-description);
+		font-size: 110%;
+		text-align: right ;
+	}	
+
+	.imgSize{
+		width: 275px;
+		height: 195px;
+		border-radius: 10px;
+	}
+
+	.btnForm{    
+		box-shadow: 0 1px 15px rgba(0,0,0,.2);
+		color: #fff;
+		text-align: center;
+		cursor: pointer;
+		border: none;
+		padding: 0 20px;
+		display: inline-block;
+		height: 40px;      
+		border-radius:5px; 
+		text-decoration: none;
+		font-weight: 400;   
+		font-size: 20px;
+		background-color: var(--color-morado2);    
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	
+	
+	/* -- FIN Tablas ------------ */
+	/* -------------------------- */
