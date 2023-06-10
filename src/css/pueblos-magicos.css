@@ -2,21 +2,220 @@
   Estilos Globales:
   Que aplican a todas las demas paginas.
  */
+:root{
+    --background-body: #F6F6F6;
+
+    /*Colores Rosa - Artesania*/
+    --color-rosa1: #CC3F65;
+    --color-rosa2: #FF0281;
+    --color-rosa3: #FF9CC0;
+
+    /*Colores Verde - Naturaleza*/
+    --color-verde1: #00A527;
+    --color-verde2: #A1D092;
+
+    /*Colores Naranja - Gastronimia*/
+    --color-naranja1: #FF350E;
+    --color-naranja2: #FF4D1A;
+    --color-naranja3: #FFB088;
+
+    /*Colores Morado - Cultura y Tradicion*/
+    --color-morado1: #5D1D67;
+    --color-morado2: #823890;
+    --color-morado3: #B786B7;
+
+    /*Colores Azul - Gente*/
+    --color-azul1: #0085D5;
+    --color-azul2: #00A5DF;
+    --color-azul3: #46CDF4;
+
+    --fuente-color: #212121;
+    --fuente-color2: #444444;
+    --fuente-color3: #ECECEC;
+
+    --background-bordes: lightgrey;
+    --background-description:#ECECEC;
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', serif;
+}
+
+@font-face {
+    font-family: "PT Sans PM";
+    src: url("../recursos/PTSans-Regular.ttf");
+}
+
+.typografia {
+    font-family: var(--montserrat);
+}
+
+html, body {
+    font-family: var(--open-sans);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    padding: 75px 0 0 0;
+}
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
-    background-color: black;
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
 }
 
+ul, li {
+    padding: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 72px;
+    color: var(--fuente-color2);
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--fuente-color2);
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--fuente-color2);
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--fuente-color2);
+}
+label{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--fuente-color2);
+}
+
+.menu-navegacion {
+    font-family: var(--montserrat);
+    background-color: var(--background-body);
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid var(--background-bordes);
+    width: 100%;
+    margin: 0;
+    z-index: 9999;
+}
+
+.menu-lista {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-content: center;
+}
+
+.menu-opcion {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-opcion a {
+    /*all: unset;*/
+    text-decoration: none;
+}
+
+.logo {
+    height: 75px;
+    display: flex;
+}
+
+.logo img {
+    align-self: center;
+}
+
+.lado-derecho {
+    justify-content: flex-end;
+}
+
+.lado-izquierdo {
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px)  {
+    .menu-links-navegacion .menu-lista {
+        display: block;
+    }
+}
 
 /* Estilos Individuales */
 
 /*
   Index.css
  */
-picture.logo img {
-    border-radius: 20px;
+
+.pueblo-magico-imagen {
+    background-image: url("../recursos/imagen-fondo.webp");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.pueblo-magico-texto {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: var(--background-body);
+    text-shadow: 7px 8px 6px rgba(17, 0, 0, 1);
+}
+
+@media only screen and (max-width: 600px)  {
+    .pueblo-magico-texto {
+        left: 20%;
+    }
+}
+
+.contentido {
+    text-align: center;
+}
+.columnas * {
+    display: inline-flex;
+    width: 35%;
+    align-content: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px)  {
+    .columnas * {
+        display: block;
+        width: 100%;
+    }
+}
+
+.lista-de-pueblos {
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+.lista-de-pueblos li {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    color: white;
 }

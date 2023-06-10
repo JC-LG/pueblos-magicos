@@ -1,0 +1,154 @@
+html, body {
+    background-color: var(--background-body);
+}
+
+
+
+.btnVideo, 
+.btnEstuve{    
+    box-shadow: 0 1px 15px rgba(0,0,0,.2);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 0 20px;
+    display: inline-block;
+    height: 40px;      
+    border-radius:5px; 
+    text-decoration: none;
+    font-weight: 400;   
+    font-size: 20px;
+}
+
+.btnVideo{
+    background-color: var(--color-azul1);    
+    margin-right: 10px;
+}
+
+.btnEstuve{
+    background-color:var(--color-rosa1) ;
+}
+
+.buttons{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+main{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.principal{
+    height: 700px;
+    background-image: url(../recursos/imagenes/dolores-hidalgo2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    background-position: center top;
+    display: block;
+    text-align: center;
+}
+.dolores{
+    width: 91%;
+    margin: 0 auto;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;    
+    color: #fff;
+}
+.spanGuanajuato{
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-shadow: 0 0 10px rgba(0,0,0,.8);
+    margin-top: 5rem;
+}
+
+.title{
+    text-align: center;
+    color: #fff;    
+    text-shadow: 0 0 10px rgba(0,0,0,.8);
+    margin: 0 0 60px 0;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.descriptionDolores{
+    text-shadow: 0 0 10px rgba(0,0,0,.8);
+    text-align: center;
+    margin: 0 0 60px;
+    padding: 0 20px;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.imgTable{
+    border-spacing: 10px;
+    display: flex;
+    justify-content: center;
+}
+th, td {
+    padding: 0.5px;
+  }
+
+ td img {    
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+ } 
+
+ .imgNormal{
+    height: 200px;
+    width: 315px;
+ }
+ .imgRowspan{
+    height: 415px;
+    width: 640px;
+ }
+
+ .description{
+    background-color: var(--background-description);
+    margin: 0 1rem;
+    display: block;
+    padding: 10px 3rem;
+ }
+ .description h2{
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--color-rosa2);;
+ }
+
+ .description h3{
+    margin: 1rem 0;
+    color: var(--color-rosa2);;
+ }
+
+.listMotivo{
+    margin: -0.5rem 2rem;
+    font-weight: 400;   
+    font-size: 18px; 
+    color: var(--fuente-color2);
+}
+.listImprescindibles{
+    margin-top: -1.5rem;
+    font-weight: 400;   
+    font-size: 18px; 
+    color: var(--fuente-color2);
+}
+.titleImg{
+    text-align: center;
+    margin: 1rem 0;
+}
+.sectionVideo{
+    display: block;
+    text-align: center;
+}
+
+.video{
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
+}
