@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es" class="html_Pricipal">
+<head>
+    <title>Contacto Pueblos Magicos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="css/pueblos-magicos.css">
+    <link rel="stylesheet" type="text/css" href="css/pueblo-magico-3.css" media="screen">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+<nav class="menu-navegacion">
+    <ul class="menu-lista">
+        <li class="menu-opcion">
+            <a href="./index.html">
+                <picture class="logo">
+                    <img width="175" height="50" src="./recursos/pueblos-magico-logo.png">
+                </picture>
+            </a>
+        </li>
+        <li class="menu-opcion menu-links-navegacion">
+            <ul class="menu-lista">
+                <li class="menu-opcion">
+                    <a href="pueblos-magicos-informacion-6.html">
+                        <p>Informacíon</p>
+                    </a>
+                </li>
+                <li class="menu-opcion  lado-derecho">
+                    <a href="pueblos-magicos-contacto-5.html">
+                        <p>Contacto</p>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<header>
+    <h2>Contacto</h2>
+    <h3>Formulario de encuesta para enviarle información</h3>
+</header>
+
+<main>
+    <table class="tabla_1">
+        <tr>
+            <td>
+                <section id=”Contacto”>
+                    <h3>Introduzca sus datos personales</h3>
+                    <form class="formulario" action="#" method="get"><br>
+                        <label>Nombre: </label>
+                        <input class="inputForm" type="text" id="nombre" name="nombre_control" autofocus
+                               required><br><br>
+                        <label for="apellidoP">Apellido Paterno: </label>
+                        <input class="inputForm" type="text" id="apellidoP" name="apellidoP_control" required><br><br>
+                        <label for="apellidoM">Apellido Materno: </label>
+                        <input class="inputForm" type="text" id="apellidoM" name="apellidoM_control" required><br><br>
+                        <hr>
+                        <label for="edad">Edad: </label>
+                        <input class="inputForm" type="number" id="edad" name="edad" required><br><br>
+                        <label>Correo Electrónico:</label>
+                        <input class="inputForm" type="email" name="email_control" required> <br><br>
+                        <hr>
+                        <label>Selecciones su siguiente destino:</label><br><br>
+                        <input type="checkbox" name="SCDLC" value="SCDLC" id="SCDLC">
+                        <label for="SCDLC"> San Cristobal De Las Casas</label><br>
+                        <input type="checkbox" name="SMDA" value="SMDA">
+                        <label> San Miguel Del Alto</label><br>
+                        <input type="checkbox" name="AP" value="AP">
+                        <label> Atlixco Puebla</label><br>
+                        <input type="checkbox" name="DH" value="DH" checked>
+                        <label> Dolores Hidalgo</label><br><br>
+                        <hr>
+                        <label>Selecciones algún paquete que le interese: </label><br><br>
+                        <input type="radio" id="Hotel" name="fav_language" value="Hotel">
+                        <label for="Hotel">Hotel</label><br>
+                        <input type="radio" id="ST" name="fav_language" value="ST">
+                        <label for="ST">Sólo Transporte</label><br>
+                        <input type="radio" id="HT" name="fav_language" value="HT" checked="checked">
+                        <label for="HT">Hotel + Transporte</label><br><br>
+                        <label>Fecha Nacimiento:</label><br>
+                        <input class="inputForm" type="date" name="fecha_nac"><br><br>
+                        <label>Comentarios:</label><br>
+                        <textarea id="comentarios" name="comentarios_Ccontrol" rows="4" cols="50">¡Escriba sus comentarios!</textarea>
+                        <br><br>
+                        <input class="btnForm" type="submit" value="Registrar">
+                    </form>
+
+                </section>
+            </td>
+        </tr>
+    </table>
+
+</main>
+
+<footer>
+    <p>¡Gracias por su vista!</p>
+</footer>
+
+</body>
+</html>
