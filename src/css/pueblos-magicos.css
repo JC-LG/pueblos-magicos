@@ -187,7 +187,7 @@ label{
 .contentido {
     text-align: center;
 }
-.columnas * {
+.columnas p {
     display: inline-flex;
     width: 35%;
     align-content: center;
@@ -195,7 +195,7 @@ label{
 }
 
 @media only screen and (max-width: 600px)  {
-    .columnas * {
+    .columnas p {
         display: block;
         width: 100%;
     }
