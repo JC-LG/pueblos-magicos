@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: "PT Sans PM";
-    src: url("../recursos/PTSans-Regular.ttf");
+    src: url("fuentes/PTSans-Regular.ttf");
 }
 
 .typografia {
@@ -148,9 +148,37 @@ label{
     justify-content: flex-start;
 }
 
+.menu-en-columna {
+    display: flex;
+}
+
+.opcion-reducida {
+    flex-basis: 100%;
+}
+
+.menu-links-navegacion .menu-opcion, .menu-links-navegacion .menu-opcion a {
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px)  {
     .menu-links-navegacion .menu-lista {
         display: block;
+    }
+
+    .menu-en-columna {
+        display: block;
+    }
+
+    .opcion-reducida {
+        width: 100%;
+    }
+
+    .menu-opcion .opcion-reducida {
+        margin-bottom: 10px;
+    }
+
+    .menu-links-navegacion .menu-opcion, .menu-links-navegacion .menu-opcion a {
+        text-align: left;
     }
 }
 
@@ -161,7 +189,7 @@ label{
  */
 
 .pueblo-magico-imagen {
-    background-image: url("../recursos/imagen-fondo.webp");
+    background-image: url("../recursos/imagenes/imagen-fondo.webp");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
