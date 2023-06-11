@@ -6,4 +6,4 @@
 
 [Link a Pagina Web](https://jc-lg.github.io/pueblos-magicos/src/)
 
-[HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjc-lg.github.io%2Fpueblos-magicos%2Fsrc%2F)
+[Link de validacion para HTML](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fjc-lg.github.io%2Fpueblos-magicos%2Fsrc%2F)
