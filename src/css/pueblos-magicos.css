@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: "PT Sans PM";
-    src: url("fuentes/PTSans-Regular.ttf");
+    src: url("../recursos/fuentes/PTSans-Regular.ttf");
 }
 
 .typografia {
@@ -551,3 +551,262 @@ footer p {
     width: 100%;
 }
 
+/** Yara  */
+
+.pueblo-uno .center {
+    background-image: url("../recursos/imagenes/SanCristobal.jpeg");
+    padding:11px 16px;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 50px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: block;
+    color: #FFFF;
+    /* text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1); */
+    text-shadow: 0 13.36px 8.896px #585551,0 -2px 1px #918d8d;
+
+}
+.pueblo-uno .center h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pueblo-uno .center h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pueblo-uno #rcorners1 {
+    border-radius: 15px 50px 30px;
+    background: #e9e9e9;
+    padding: 20px;
+
+}
+.pueblo-uno table img{
+    border-radius: 40px 40px 40px 40px;
+    height: 400px;
+    width: 450px;
+}
+.pueblo-uno article#rcorners1 {
+    margin: 20px 40px 20px 40px;
+}
+.pueblo-uno h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+}
+.pueblo-uno .container {
+    position: relative;
+
+}
+
+.pueblo-uno .text-block {
+    bottom: 18px;
+    left: 16px;
+    background-color: #FFB088;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+
+    position: absolute;
+    padding-top: 60px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+.pueblo-uno .gastronomia h4{
+    color: #FF350E;
+
+}
+.pueblo-uno .image_wrapper {
+    position: relative;
+}
+
+.pueblo-uno .bg_image_1 {
+    position: relative;
+}
+
+.pueblo-uno .bg_image_1::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: .4;
+    background: pink;
+    background-image: url(https://source.unsplash.com/VWcPlbHglYc);
+    background-size: cover;
+    background-position: center;
+}
+
+.naturaleza h4{
+    color: #00A527;
+}
+.gente h4{
+    color: #0085D5;
+}
+.cultura h4{
+    color: #892da8;
+}
+.artesania h4 {
+    color: #FF0281;
+}
+.pueblo-uno div h5, p {
+    margin: 20px 40px 20px 40px;
+}
+.pueblo-uno h5 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #FF350E;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.pueblo-uno #gente h5{
+    color: #00A5DF;
+}
+.pueblo-uno #naturaleza h5{
+    color: #00A527;
+}
+.pueblo-uno #artesania h5{
+    color: #FF0281;
+}
+.pueblo-uno #cultura h5{
+    color: #8a1da3;
+}
+
+
+.pueblo-uno h5 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+.pueblo-uno .two h5 {
+    text-transform: capitalize;
+}
+.pueblo-uno .two h5:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 5px;
+    content: "";
+    background-color: #FF350E;
+}
+.pueblo-uno #gente h5:before{
+    background-color: #00A5DF;
+}
+.pueblo-uno #gente h5 span {
+    color: rgb(70, 205, 244, 0.8);
+}
+.pueblo-uno #naturaleza h5:before{
+    background-color: #00A527;
+}
+
+.pueblo-uno #naturaleza h5 span {
+    color: rgb(161, 208, 146, 0.9);
+}
+.pueblo-uno #artesania h5:before{
+    background-color: #FF0281;
+}
+
+.pueblo-uno #artesania h5 span {
+    color: rgb(255, 2, 129, 0.6);
+}
+.pueblo-uno #cultura h5:before{
+    background-color: #8a1da3;
+}
+
+.pueblo-uno #cultura h5 span {
+    color: rgb(149, 62, 169, 0.7);
+}
+
+.pueblo-uno .two h5 span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color: rgb(255, 176, 136, 0.8);
+    padding-bottom: 10px;
+}
+
+/*----------------------------- */
+.pueblo-uno .nine h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+}
+.pueblo-uno .nine h1 span {
+    margin-top: 5px;
+    font-size:15px; color:#FF0281; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.pueblo-uno .nine h1 span:after, .pueblo-uno .nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+    background-color:#f8f8f8;
+}
+
+.pueblo-uno .three h4 {
+    font-family:"Raleway", sans-serif; font-weight:500;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+}
+.pueblo-uno .three h4:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #FF9CC0;
+}
+.pueblo-uno .three h4:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #FF9CC0;
+}
+.pueblo-uno table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px)  {
+    table.imagenes-pueblo tbody, table.imagenes-pueblo tr {
+        display: inline-block;
+    }
+    table.imagenes-pueblo td {
+        display: block;
+        width: 100%;
+    }
+}
